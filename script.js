@@ -1,5 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('contact-form');
+    const themeLink = document.getElementById('theme-link');
+
+    // Load saved theme
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+        themeLink.href = savedTheme;
+    }
+
+    window.setTheme = (themeName) => {
+        themeLink.href = themeName;
+        localStorage.setItem('theme', themeName);
+    };
 
     form.addEventListener('submit', (e) => {
         e.preventDefault();

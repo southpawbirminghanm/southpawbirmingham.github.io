@@ -1,0 +1,49 @@
+@import url('style.css');
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header {
+    background-color: #1f1f1f;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+h2 { color: #90caf9; }
+
+.price-list li {
+    background-color: #1e1e1e;
+    border-left-color: #90caf9;
+}
+
+#contact-form input, #contact-form textarea {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+    border-color: #333;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    border-color: #90caf9;
+    box-shadow: 0 0 4px rgba(144, 202, 249, 0.3);
+}
+
+#contact-form button {
+    background-color: #2196f3;
+}
+#contact-form button:hover {
+    background-color: #1565c0;
+}
+
+footer {
+    background-color: #0d47a1;
+    color: #e0e0e0;
+}
+
+.theme-switcher button {
+    background-color: #2196f3;
+    color: white;
+}
+.theme-switcher button:hover {
+    background-color: #1565c0;
+}

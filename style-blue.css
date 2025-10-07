@@ -6,38 +6,38 @@ body {
 }
 
 header {
-    background-color: #43a047;
+    background-color: #1e88e5;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-h2 { color: #2e7d32; }
+h2 { color: #1565c0; }
 
 .price-list li {
-    background-color: #e8f5e9;
-    border-left-color: #43a047;
+    background-color: #e3f2fd;
+    border-left-color: #1e88e5;
 }
 
 #contact-form input:focus, #contact-form textarea:focus {
-    border-color: #43a047;
-    box-shadow: 0 0 4px rgba(67, 160, 71, 0.3);
+    border-color: #1e88e5;
+    box-shadow: 0 0 4px rgba(30, 136, 229, 0.3);
 }
 
 #contact-form button {
-    background-color: #43a047;
+    background-color: #1e88e5;
 }
 #contact-form button:hover {
-    background-color: #2e7d32;
+    background-color: #1565c0;
 }
 
 footer {
-    background-color: #1b5e20;
+    background-color: #0d47a1;
     color: white;
 }
 
 .theme-switcher button {
-    background-color: #43a047;
+    background-color: #1e88e5;
     color: white;
 }
 .theme-switcher button:hover {
-    background-color: #2e7d32;
+    background-color: #1565c0;
 }
